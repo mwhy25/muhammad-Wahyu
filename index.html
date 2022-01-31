@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="netlix.css">
 </head>
 
 <body>
@@ -28,10 +29,10 @@
                     </div>
                     <div id="navbarMenuHeroA" class="navbar-menu">
                         <div class="navbar-end">
-                            <a class="navbar-item is-active">
+                            <a class="navbar-item is-active" href="#header">
                     Home
                   </a>
-                            <a class="navbar-item">
+                            <a class="navbar-item" href="#about">
                     Examples
                   </a>
                             <a class="navbar-item">
@@ -54,19 +55,20 @@
         <!-- Hero content: will be in the middle -->
         <div class="hero-body">
             <div class="container has-text-centered">
-                <p class="title is-introup">
+                <h1 class="is-size-1 is-introup">
                     Hello I'm Wahyu <br> I'm a full-stack web developer
-                </p>
+                </h1>
                 <p class="subtitle is-introup">
                     Subtitle
                 </p>
             </div>
         </div>
     </section>
-    <section id="about" class="section is-large is-primary">
+    <section id="about" class="section is-medium">
+        <h1 class="title has-text-centered has-text-weight-semibold is-size-1">About Me</h1>
         <div class="columns">
             <div class="column is-one-third">
-                <img src="image/profile.jpg" alt="profile_picture">
+                <img src="image/profile.jpg" alt="profile_picture" class="border-left">
             </div>
             <div class="column">What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
                 make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
@@ -74,6 +76,11 @@
 
         </div>
     </section>
+    <script>
+        window.onbeforeunload = function() {
+            window.scrollTo(0, 0);
+        }
+    </script>
 </body>
 
 </html>

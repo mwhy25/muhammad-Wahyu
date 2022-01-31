@@ -5,3 +5,9 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+.border-left {
+    border: 1px solid transparent;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
