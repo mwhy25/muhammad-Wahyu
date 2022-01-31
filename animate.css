@@ -1,0 +1,32 @@
+.is-intro {
+    animation-name: is-intro;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+
+@keyframes is-intro {
+    from {
+        transform: scale(2, 2);
+    }
+    to {
+        transform: scale(1, 1);
+    }
+}
+
+.is-introup {
+    opacity: 0;
+    animation-name: is-introup;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes is-introup {
+    from {
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
