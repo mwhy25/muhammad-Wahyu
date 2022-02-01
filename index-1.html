@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="animate.css">
+</head>
+
+<body>
+    <section id="home" class="section is-medium">
+        <h1 class="title has-text-centered has-text-weight-semibold is-size-1">About Me</h1>
+        <div class="columns">
+            <div class="column is-one-third">
+                <img src="image/add1.jpg" alt="profile_picture" class="border-left">
+            </div>
+            <div class="column ">
+                <p class="typewriter">Hi... My name is Wahyu!</p>
+                <p class="typewriter coba">I'm Web Developer that gonna make your dream website come true</p>
+                <p id="coba"></p>
+                <!-- <p class="popin">A Future Of The World Has Never More Than A Future For We Bring Up A Comfort!</p> -->
+            </div>
+
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="animation.js"></script>
+    <script>
+        window.onbeforeunload = function() {
+            window.scrollTo(0, 0);
+        }
+    </script>
+</body>
+
+</html>

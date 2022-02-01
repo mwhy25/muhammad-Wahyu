@@ -1,0 +1,62 @@
+.is-background {
+    background-image: url(image/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.border-left {
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+#coba {
+    font-family: monospace;
+    font-size: 2em;
+}
+
+.typewriter {
+    width: 30ch;
+    animation: typing 2s steps(30), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+
+.popin {
+    margin-top: 20px;
+    font-family: monospace;
+    font-size: 1.5em;
+    opacity: 0;
+    animation-name: pop;
+    animation-duration: 1s;
+    animation-delay: 2.5s;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
+@keyframes pop {
+    from {
+        transform: translateY(10px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}

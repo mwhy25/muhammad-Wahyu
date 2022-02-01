@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="style2.css">
+    <!-- <link rel="stylesheet" href="glitch.css"> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+</head>
+
+<body>
+    <div>
+        <a href="#about"><img class="sticky" src="image/arrow.png" style="width: 50px;height: 50px;" alt="top"></a>
+        <nav id=nav-bot>
+            <ul>
+                <li>About Me</li>
+                <li>Project</li>
+                <li>Resume</li>
+            </ul>
+        </nav>
+    </div>
+    <section class="hero is-fullheight tempat">
+        <div class="hero-body">
+            <!-- <div class="glitch-wrapper">
+                <div class="glitch" data-text="GLITCH">
+                    GLITCH
+                </div>
+            </div> -->
+            <div class="intro">
+                <div class="animate-character has-text-centered">Hello! <br>I'm Wahyu <br> I'm web Developer</div>
+                <h1 class="is-size-1 has-text-light has-text-centered animated">
+                    <div class="first">Hello, </div>
+                    <br>
+                    <div class="second"> Welcome to <br>Wahyu's Project. <br>Hope you enjoy it.</div>
+                </h1>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="hero is-fullheight tempat-second">
+        <div class="hero-body">
+            <!-- <div class="card">
+                <div class="card-content">
+                    <div class="content"> -->
+            <div class="columns is-centered">
+                <div class="column kiri" data-aos="fade-left">
+                    <p class="has-text-light has-text-justified is-size-3">
+                        asdsa
+                    </p>
+                    <p class="has-text-light has-text-justified is-size-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                        passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                </div>
+                <div class="column" data-aos="fade-right">
+                    <figure class="image">
+                        <!-- <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png"> -->
+                        <img src="image/profile.jpg" alt="profile" class="is-bulat">
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <!-- </div>
+            </div>
+        </div> -->
+    </section>
+    <section id="project" class="hero is-fullheight tempat">
+        <div class="hero-body"></div>
+    </section>
+    <script>
+        window.onbeforeunload = function() {
+            window.scrollTo(0, 0);
+        }
+    </script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
